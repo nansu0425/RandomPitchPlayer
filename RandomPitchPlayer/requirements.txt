@@ -1,0 +1,20 @@
+# RandomPitchPlayer 필수 패키지 목록
+# EXE 빌드를 위한 요구사항
+
+# EXE 빌드 도구
+pyinstaller>=5.0
+
+# GUI 프레임워크 (보통 Python과 함께 설치됨)
+# tkinter는 별도 설치 불필요 (Python 표준 라이브러리)
+
+# TTS (Text-to-Speech) 패키지
+gTTS>=2.3.0          # Google Text-to-Speech API
+pygame>=2.0          # gTTS 오디오 재생을 위한 pygame
+
+# 선택적 패키지들 (향후 기능 확장 시)
+# pillow>=8.0  # 이미지 처리 (아이콘 등)
+# numpy>=1.20  # 수치 계산 최적화 시
+
+# 개발 도구 (선택사항)
+# black  # 코드 포맷터
+# flake8  # 코드 스타일 검사기

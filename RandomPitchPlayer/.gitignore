@@ -1,0 +1,202 @@
+# RandomPitchPlayer .gitignore
+# Python 음정 연습 프로그램 프로젝트용
+
+# ==============================================================================
+# Python 관련
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller 관련
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# RandomPitchPlayer 특화 무시 파일들
+# ==============================================================================
+
+# PyInstaller 빌드 결과물
+build/
+dist/
+*.spec
+
+# 실행 파일
+*.exe
+*.app
+*.dmg
+
+# 임시 설정 파일 (config.py는 빌드 시마다 생성됨)
+config.py
+
+# TTS 임시 파일들
+random_pitch_tts_*/
+*.mp3
+*.wav
+*.tmp
+
+# 로그 파일들
+*.log
+logs/
+
+# 백업 파일들
+*.bak
+*.backup
+*~
+
+# 테스트 파일들
+test_*.py
+*_test.py
+
+# ==============================================================================
+# 개발 도구 관련
+# ==============================================================================
+
+# IDE/Editor 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+
+# ==============================================================================
+# 운영체제 관련
+# ==============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+
+# ==============================================================================
+# 문서 및 미디어 파일
+# ==============================================================================
+
+# 임시 문서
+*.tmp
+*.temp
+
+# 압축 파일
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ==============================================================================
+# 보안 및 개인정보
+# ==============================================================================
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 개인 설정
+personal_config.py
+private_settings.py
+
+# ==============================================================================
+# 빌드 및 배포 관련
+# ==============================================================================
+
+# 릴리즈 파일들
+releases/
+packages/
+
+# 설치 패키지
+*.msi
+*.deb
+*.rpm
+
+# ==============================================================================
+# 기타
+# ==============================================================================
+
+# Node.js (혹시 프론트엔드 도구 사용 시)
+node_modules/
+npm-debug.log*
+
+# 기타 임시 파일
+*.tmp
+*.temp
+*.cache
